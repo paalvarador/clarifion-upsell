@@ -1,0 +1,23 @@
+:root {
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-dark-gray: #252F3D;
+    --color-light-gray: #4D5254;
+    --color-gray: #CFCFCF;
+    --color-super-light-gray: #969696;
+    --color-super-dark-gray: #37465A;
+    --color-dark-white: #FAFAFA;
+    --color-ligh-dark: #333333;
+    --color-green: #59AE43;
+    --color-light-green: #5BB59A;
+    --color-light-blue: #2C7EF8;
+    --color-super-light-blue: #EDF3FD;
+    --color-red: #F82C2C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+}

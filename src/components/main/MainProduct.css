@@ -1,0 +1,229 @@
+.main-product {
+    background-color: var(--color-dark-white);
+    border-radius: 5px;
+    margin: 0 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    gap: 2rem;
+    margin-bottom: 50px;
+}
+
+.main-product-image img {
+    max-width: 100%;
+}
+
+.main-product-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product-title {
+    font-size: 25px;
+}
+
+.title-blue {
+    color: var(--color-light-blue);
+}
+
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-price-minimalist {
+    border-radius: 5px;
+    background-color: var(--color-light-blue);
+}
+
+.product-price-minimalist img {
+    max-width: 100%;
+}
+
+.product-price-rigth {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-price-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price-information-header-title {
+    font-size: 18px;
+}
+
+.product-price-information-header-price {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.before-price {
+    font-size: 16px;
+    color: var(--color-super-light-gray);
+    text-decoration: line-through;
+    font-weight: bolder;
+}
+
+.current-price {
+    font-size: 18px;
+    color: var(--color-light-blue);
+    font-weight: bolder;
+}
+
+.product-stock {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.stock {
+    color: var(--color-super-dark-gray);
+    font-size: 14px;
+}
+
+.stock-text {
+    color: var(--color-light-gray);
+    font-size: 14px;
+}
+
+/* Product Benefits CSS */
+.product-benefits ul {
+    list-style-type: none;
+}
+
+.product-benefits ul li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+    color: var(--color-light-gray);
+    padding-bottom: 10px;
+}
+
+.benefit-resalt {
+    font-weight: bold;
+}
+
+/* Product Saves CSS */
+.product-saves {
+    background-color: var(--color-super-light-blue);
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.saves-resalt {
+    color: var(--color-light-blue);
+}
+
+/* Product Payments CSS */
+.product-payments {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-payments-agree {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: var(--color-white);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--color-green);
+    align-items: center;
+    cursor: pointer;
+}
+
+.product-payments-pay {
+    border: 1px solid var(--color-gray);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    gap: 10px;
+    font-size: 10px;
+    align-items: center;
+    color: var(--color-light-gray);
+}
+
+.product-payments-pay span {
+    border-right: 1px solid var(--color-gray);
+    padding-right: 10px;
+}
+
+.security {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.method-payments-no {
+    text-align: center;
+    color: var(--color-red);
+    text-decoration: underline;
+}
+
+/* Product Guarantee */
+.product-garantee {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 13px;
+    align-items: center;
+    color: var(--color-light-gray);
+}
+
+/* Media Queries */
+/* Tablet Devices */
+@media screen and (max-width: 768px) {
+    .main-product {
+        background-color: var(--color-dark-white);
+        border-radius: 5px;
+        margin: 0 150px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+        gap: 2rem;
+        margin-bottom: 50px;
+    }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 480px) {
+   .main-product {
+        margin: 0;
+        border-radius: 0;
+        background-color: var(--color-dark-white);
+        display: block;
+        width: 100%;
+    }
+
+    .testimonial {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
